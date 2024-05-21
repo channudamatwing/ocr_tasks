@@ -6,9 +6,9 @@ import cv2
 
 from datasets import Dataset, Features, Array3D, Value
 from transformers import TrOCRProcessor, AutoTokenizer, TFVisionEncoderDecoderModel, AutoModelForCausalLM, VisionEncoderDecoderConfig
-from keras.preprocessing.image import ImageDataGenerator
-from keras.callbacks import ModelCheckpoint
-from keras.losses import SparseCategoricalCrossentropy, Reduction
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.callbacks import ModelCheckpoint
+from tensorflow.keras.losses import SparseCategoricalCrossentropy, Reduction
 from IPython.display import clear_output
 
 tf.keras.backend.clear_session()

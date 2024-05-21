@@ -1,0 +1,12 @@
+pandas
+notebook
+matplotlib
+seaborn
+opencv-python
+scikit-learn
+tensorflow[and-cuda]
+transformers
+transformers[tf-cpu]
+torch
+sentencepiece
+ipykernel

@@ -1,4 +1,5 @@
 .ipynb_checkpoints
+__pycache__
 env
-KhmerOCRModel_TokenizerCasualLM_v2
-KhmerOCRModel_TokenizerCasualLM
+test_generated_templates
+train_generated_templates
